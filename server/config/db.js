@@ -1,3 +1,7 @@
+//   db.js
+//  Ildaphonse Cornolius
+//  ID: 300699371
+//  Date: October 30, 2022
 module.exports = 
 {
    // "URI": "mongodb://localhost/contacts",

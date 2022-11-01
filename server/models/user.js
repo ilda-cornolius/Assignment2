@@ -1,3 +1,7 @@
+//   user.js
+//  Ildaphonse Cornolius
+//  ID: 300699371
+//  Date: October 30, 2022
 // require modules for the User Model
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');

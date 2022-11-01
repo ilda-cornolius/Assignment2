@@ -3,6 +3,10 @@
 /**
  * Module dependencies.
  */
+//   server.ejs
+//  Ildaphonse Cornolius
+//  ID: 300699371
+//  Date: October 30, 2022
 
 var app = require('./server/config/app');
 

@@ -1,3 +1,7 @@
+//   users.js
+//  Ildaphonse Cornolius
+//  ID: 300699371
+//  Date: October 30, 2022
 var express = require('express');
 var router = express.Router();
 
