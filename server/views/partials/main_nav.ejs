@@ -1,6 +1,11 @@
+<!-- main_nav.ejs
+Ildaphonse Cornolius
+ID: 300699371
+Date: October 30, 2022 -->
 <!-- Main Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">COMP229</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+      <img src="Assets/images/logo.png" width="80" height="50" alt="" class="d-inline-block align-middle mr-2">Assignment 2</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,7 +18,7 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/home"><i class="fas fa-lg fa-laptop-house"></i> Home </a>
+          <a class="nav-link" href="/home"><i class="fas "></i> Home </a>
         </li>
 
         <% if (title == "About") { %>
@@ -21,15 +26,15 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About </a>
+          <a class="nav-link" href="/about"><i class="fas "></i> About </a>
         </li>
 
-        <% if (title == "Products") { %>
+        <% if (title == "Projects") { %>
         <li class="nav-item active">
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/products"><i class="fab fa-elementor"></i> Products </a>
+          <a class="nav-link" href="/projects"><i class="fab "></i> Projects </a>
         </li>
 
         <% if (title == "Services") { %>
@@ -37,15 +42,15 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/services"><i class="fas fa-cogs"></i> Services </a>
+          <a class="nav-link" href="/services"><i class="fas "></i> Services </a>
         </li>
 
-        <% if (title == "Books") { %>
+        <% if (title == "Contacts") { %>
         <li class="nav-item active">
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/book-list"><i class="fas fa-book"></i> Books </a>
+          <a class="nav-link" href="/contact-list"><i class="fas "></i> Contacts </a>
         </li>
 
         <% if (title == "Contact") { %>
@@ -53,16 +58,16 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact </a>
+          <a class="nav-link" href="/contact"><i class="fas"></i> Contact </a>
         </li>
 
         <% if(typeof displayName == 'string' && displayName) { %>
-          <li class="navbar-text"><i class="fas fa-lg fa-user"></i> Welcome, <%= displayName %></li>
+          <li class="navbar-text"><i class="fas"></i> Welcome, <%= displayName %></li>
           <li class="nav-item"><a href="/logout" class="nav-link">
-            <i class="fas fa-lg fa-sign-out-alt"></i> Logout</a></li>
+            <i class="fas"></i> Logout</a></li>
         <% } else { %>
           <li class="nav-item"><a href="/login" class="nav-link">
-            <i class="fas fa-lg fa-sign-in-alt"></i> Login</a></li>
+            <i class="fas"></i> Login</a></li>
         <% } %>
 
 

@@ -1,0 +1,66 @@
+
+<!-- contact.ejs
+Ildaphonse Cornolius
+ID: 300699371
+Date: October 30, 2022 -->
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+<header>
+    Contact
+</header>
+<!-- Linking to the bootstrap css  -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<!-- 
+Linking to the header.ejs file to be used as a navigation bar  -->
+
+<!-- 
+Displaying the company's contact information  -->
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Contact</h5>
+      <p class="card-text">linkedin: https://www.linkedin.com/in/ildaphonse-cornolius/</p>
+      <p class="card-text">phone number: 416-221-4891</p>
+      <p class="card-text">email: ildacorn@gmail.com</p>
+      <p class="card-text">address: 192 Trafalger Road</p>
+
+
+    </div>
+
+
+<!-- 
+Displaying a form for the user to enter their info, which will be displayed in the home page  -->
+    <form action="mailto:ildacorn@gmail.com" method="get">
+        <h2>Contact Form</h2>
+        <hr>
+                      
+          <label>First name</label>
+          <input name="first" type="text" placeholder="first_name"><br>
+      
+          <label>Last name</label>
+          <input name="last" type="text" placeholder="last_name"><br>
+      
+          <label>Email</label>
+          <input name="email" type="email" placeholder="email"><br>
+      
+          <label>Phone number</label>
+          <input name="phone" type="tel" placeholder="phone"><br>
+                      
+             
+        <textarea row="2" cols="30" name="message" placeholder="Enter a Message"></textarea>
+        
+                
+          <button>
+            Send
+          </button>
+      
+      </form>
+
+
+  </div>
+
+
+
+
+  <%- include partials/bottom_nav.ejs %>  
+    
